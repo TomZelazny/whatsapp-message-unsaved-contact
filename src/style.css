@@ -11,6 +11,12 @@ p {
     font-size: 1.2em;
 }
 
+a {
+    margin-right: auto;
+    margin-top: 3em;
+    color: white;
+}
+
 input {
     width: 21em;
     height: 3em;
