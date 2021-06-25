@@ -9,8 +9,8 @@ iti.promise.then(function () {
     console.log("initialized!");
 });
 
-document.getElementById("phone_form").addEventListener("submit", () => {
-    console.log("submitted!");
+document.getElementById("phone_form").addEventListener("submit", (e) => {
+    e.preventDefault();
     window.location.href = `https://wa.me/${iti.getNumber()}`;
     return false;
 })
