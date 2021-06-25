@@ -1,6 +1,8 @@
 const input = document.querySelector("#phone");
 
 var iti = window.intlTelInput(input, {
+    initialCountry: "IL",
+    preferredCountries: ["IL", "us", "gb"],
     utilsScript: "/vendors/js/utils.min.js",
 });
 iti.promise.then(function () {
