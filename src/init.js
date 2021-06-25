@@ -2,7 +2,7 @@ const input = document.querySelector("#phone");
 const statusElement = document.querySelector("#status");
 
 var iti = window.intlTelInput(input, {
-    utilsScript: "/vendors/utils.min.js",
+    utilsScript: "/vendors/utils1.min.js",
 });
 iti.promise.then(function () {
     statusElement.innerHTML = "Initialised!";
