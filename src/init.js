@@ -10,5 +10,7 @@ iti.promise.then(function () {
 });
 
 document.getElementById("phone_form").addEventListener("submit", () => {
-    window.location.href = `https://wa.me/${iti.getNumber()}`
+    console.log("submitted!");
+    window.location.href = `https://wa.me/${iti.getNumber()}`;
+    return false;
 })
