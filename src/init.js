@@ -8,6 +8,6 @@ iti.promise.then(function () {
     statusElement.innerHTML = "Initialised!";
 });
 
-document.getElementById("test").addEventListener("click", () => {
+document.getElementById("phone_form").addEventListener("submit", () => {
     window.location.href = `https://wa.me/${iti.getNumber()}`
 })

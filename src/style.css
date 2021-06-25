@@ -6,3 +6,7 @@ body {
     background: #273443;
     color: white;
 }
+
+#phone_form {
+    padding: 10%;
+}
