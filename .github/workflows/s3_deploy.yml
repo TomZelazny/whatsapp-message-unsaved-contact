@@ -53,7 +53,7 @@ jobs:
           # AWS CloudFront distribution ID
           dist-id: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }} # optional
           # AWS CloudFront invalidation path(s)
-          # invalidation: # optional - '/' is default
+          invalidation: '/*' # optional - '/' is default
           # Removes files in S3 that are not available in the local copy of the directory
           delete-removed: true # optional
           # Use this parameter to specify Cache-Control: no-cache, no-store, must-revalidate header
