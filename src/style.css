@@ -4,7 +4,16 @@ body {
     align-items: center;
     padding: 10%;
     background: #273443;
+}
+
+p {
     color: white;
+    font-size: 1.2em;
+}
+
+input {
+    width: 21em;
+    height: 3em;
 }
 
 #phone_form {
@@ -12,5 +21,17 @@ body {
     flex-direction: column;
     align-content: center;
     align-items: center;
-    padding: 10%;
+    padding: 0 10%;
+}
+
+button {
+    width: 100%;
+    background: #25D366;
+    color: white;
+    padding: 1em;
+    border: white solid;
+    margin-top: 0.3em;
+    font-weight: bold;
+    border-radius: 0.5em;
+    cursor: pointer;
 }
